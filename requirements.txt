@@ -1,0 +1,26 @@
+# Install the PyTorch build matching your CUDA version first:
+#   https://pytorch.org/get-started/locally/
+torch
+torchvision
+
+accelerate
+einops
+ema-pytorch
+joblib
+matplotlib
+numpy
+opencv-python
+packaging
+pandas
+Pillow
+pytorch-fid
+PyYAML
+scikit-image
+scikit-learn
+scipy
+timm
+tqdm
+transformers
+
+# Optional: UMAP plots in simclr/evaluate.py and simclr/visualize_embeddings.py
+# umap-learn

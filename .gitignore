@@ -1,0 +1,66 @@
+# ---------------------------------------------------------------------------
+# Patient / clinical data -- NEVER commit. Only the README and the header-only
+# template in data/ are tracked.
+# ---------------------------------------------------------------------------
+/data/*
+!/data/README.md
+!/data/metadata_template.csv
+
+# Model weights, checkpoints, pretrained backbones, experiment outputs
+/checkpoints/
+/pretrained/
+/results/
+/logs/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+*.joblib
+*.npy
+*.npz
+
+# Media and tabular outputs (may contain or be derived from patient data)
+*.avi
+*.mp4
+*.mov
+*.gif
+*.png
+*.jpg
+*.jpeg
+*.dcm
+*.csv
+*.tsv
+*.xlsx
+!/data/metadata_template.csv
+
+# Archives
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+
+# Secrets / local configuration
+.env
+.env.*
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# IDE / OS / tools
+.idea/
+.vscode/
+.claude/
+.DS_Store
+Thumbs.db
+*.log

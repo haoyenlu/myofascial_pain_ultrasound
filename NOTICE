@@ -1,0 +1,10 @@
+Ultrasound MPS Video Classification
+Copyright 2026 The ultrasound_mps Authors
+
+This product includes software developed by third parties under the MIT
+License. See THIRD_PARTY_NOTICES.md for the list of components and their
+license texts.
+
+This repository contains source code only. No patient data, clinical
+metadata, ultrasound images or videos, or model weights trained on patient
+data are distributed with it.
